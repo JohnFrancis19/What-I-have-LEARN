@@ -1,0 +1,83 @@
+html, body {
+    background: linear-gradient(45deg, #7a6c1e, #4169E1);
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+
+p {
+    color: aquamarine;
+}
+ul {
+    color: #fff70f;
+}
+/* Styles for the ul and li elements */
+#list {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+}
+
+#list li {
+    padding: 10px;
+    background: linear-gradient(45deg, #3b3b37, #4169E1);
+    margin-bottom: 13px;
+    border-radius: 20px;
+}
+
+/* Styles for each heading level */
+#list li:nth-child(1) { /* h1 */
+    font-size: 2em;
+    font-weight: bold;
+    color: #FF4500; /* Red */
+}
+
+#list li:nth-child(2) { /* h2 */
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #FF8C00; /* Dark Orange */
+}
+
+/* Add similar styles for h3 to h6 */
+
+#list li:nth-child(3) { /* h3 */
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #FFD700; /* Gold */
+}
+
+#list li:nth-child(4) { /* h4 */
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #228B22; /* Forest Green */
+}
+
+#list li:nth-child(5) { /* h5 */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #4169E1; /* Royal Blue */
+}
+
+#list li:nth-child(6) { /* h6 */
+    font-size: 1em;
+    font-weight: bold;
+    color: #8A2BE2; /* Blue Violet */
+}
+
+
+.title_header {
+    margin-left: 50px;
+    color: rgb(255, 71, 71);
+}
+
+.Example_header {
+    color: rgb(56, 169, 192);
+}
+
+.pre_tag {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #9cff08; /* Dark gray text color */
+    line-height: 1.5; /* Adjust spacing between lines */
+    margin-bottom: 10px; /* Add some space below each paragraph */
+}
